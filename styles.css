@@ -1,9 +1,9 @@
 
 /* Your CSS Code here. */
-  .block-inline-div, .block-inline-p, .block-inline-h1 {
-            display: block; /* Elements marked as "Block" should be displayed as blocks. */
-        }
+ .block-inline-div, .block-inline-p, .block-inline-h1 {
+    display: inline;
+}
 
-        .block-inline-button, .block-inline-span, .block-inline-input, .block-inline-cite, .block-inline-code, .block-inline-sup, .block-inline-sub {
-            display: inline; /* Elements marked as "Inline" should be displayed as inline. */
-        }
+.block-inline-button, .block-inline-span, .block-inline-input, .block-inline-cite, .block-inline-code, .block-inline-sup, .block-inline-sub {
+    display: block;
+}
